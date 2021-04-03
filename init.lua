@@ -3,7 +3,11 @@ local known_vtable_names = {
     [0x00b47a80] = "RootType1",
     [0x00b47a90] = "RootType2",
     [0x00b39460] = "Player",
-    [0x00b45c50] = "LobbyMenuHandler"
+    [0x00b45c50] = "LobbyMenuHandler",
+    [0x00b47228] = "UnknownUDPHandler",
+    [0x00b471a8] = "ReceivedPacketsHandler",
+    [0x00b45c60] = "IdleDisconnectHandler",
+    [0x00b3f9b8] = "UnknownAnimationCounterUpdater"
 }
 
 local function get_vtable_ptr(obj_ptr)
